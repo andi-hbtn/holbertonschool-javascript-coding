@@ -1,3 +1,4 @@
+#!/usr/bin/node
 const request = require("request");
 const apiParam = process.argv[2];
 
