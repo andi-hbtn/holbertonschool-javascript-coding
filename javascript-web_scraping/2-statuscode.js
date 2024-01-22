@@ -6,6 +6,10 @@ request.get(apiUrl, (err, response, body) => {
     // if (response.statusCode === 200) {
     //     console.log({ code: response.statusCode });
     // }
+    if (err) {
+        console.error(err);
+        return err
+    }
     console.log({ code: response.statusCode });
 })
 
